@@ -9,10 +9,26 @@ margin: 20px;
 color: rgb(12, 12, 224);
 }
 
+.ecri2{
+color: red;
+}
+
 .margint{
 padding: 10px;
 }
 
 .margex{
 margin: 20px;
+}
+
+/*général----------------------------------------------------*/
+p{
+    color:rgb(224, 199, 12);
+    background-color: rgb(136, 134, 134);
+}
+
+/*selecteur descendant-------------------------------------------*/
+#divK span{
+    color: red;
+    font-weight: bold;
 }
