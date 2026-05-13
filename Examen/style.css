@@ -1,3 +1,5 @@
+/* ----------------------Classes------------------------------*/
+
 .header {
     /* Flexbox elements------------------------*/
     display: flex;
@@ -10,12 +12,42 @@
     padding-left: 30px;
     box-sizing: border-box;
 
-    /*Other-----------------------------------*/
-    background-color: rgba(0, 0, 0, 0.779);
+    /* Other-----------------------------------*/
+    background-color: rgb(45, 44, 44);
 }
 
+.txtcentral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 20px;
+    font-size: 120%;
+}
 
+/* ------------------------------Syles balises--------------------------------*/
 
+body {
+    background-color: rgb(18, 18, 18) ;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}
 
 a {
     text-decoration: none;
