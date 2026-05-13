@@ -1,7 +1,6 @@
 /* ----------------------Classes------------------------------*/
 
 .header {
-    /* Flexbox elements------------------------*/
     display: flex;
     width: 100%;
     height: 40px;
@@ -12,7 +11,6 @@
     padding-left: 30px;
     box-sizing: border-box;
 
-    /* Other-----------------------------------*/
     background-color: rgb(45, 44, 44);
 }
 
@@ -61,7 +59,7 @@ footer {
     width: 100%;
     height: 25px;
 }
-/* ----------------ID---------------------------*/
+/* -----------------------------ID---------------------------------*/
 
 #trailer {
     display: flex;
