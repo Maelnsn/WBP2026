@@ -24,6 +24,12 @@
     font-size: 120%;
 }
 
+.presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* ------------------------------Syles balises--------------------------------*/
 
 body {
