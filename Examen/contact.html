@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Formulaire Contact</title>
+        <link rel="stylesheet" href="normalize.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <header class="header">
+            <h2>Formulaire de Contact</h2>
+        </header>
+
+        <main>
+            <form method="post" action="traitement">
+                
+                <div class="txtcentral">
+                    <p>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" placeholder="Entrez votre nom" minlength="2" maxlength="26" required/>
+                    </p>
+                    <p>
+                        <label for="prenom">Prenom</label>
+                        <input type="text" name="prenom" placeholder="Entrez votre prenom" minlength="2" maxlength="30" required/>
+                    </p>
+                </div>
+                
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>
