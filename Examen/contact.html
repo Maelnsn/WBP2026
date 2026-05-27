@@ -13,7 +13,7 @@
         </header>
 
         <main>
-            <form id="formulaire" method="post" action="traitement">
+            <form id="formulaire" method="post" action="backend/traitement">
                 
                 <div class="form1">
                     <p>
@@ -28,11 +28,17 @@
                     </p>
                 </div>
                 <div class="form2">
-                    <p>
-                        <label  for="adress">Adresse</label>
-                        <input  type="text" id="adress" name="adress" placeholder="Votre adresse"
-                                size="30" maxlength="50">
-                    </p>
+                    <label  for="adress">Adresse</label>
+                    <input  type="text" id="adress" name="adress" placeholder="Votre adresse"
+                            size="30" maxlength="50">
+                </div>
+                <div class="form3">
+                    <label  for="description">Description</label>
+                    <textarea   id="description" name="description" placeholder="Décrivez nous votre problème"
+                                rows="10" columns="20" size="40" maxlength="200"></textarea>
+                </div>
+                <div>
+                    <button class="bouton" type="submit">Envoyer</button> 
                 </div>
                 
             </form>
